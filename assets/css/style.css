@@ -1,0 +1,39 @@
+button.random-number img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.question {
+	width: 200px;
+	height: 100px;
+	/*background-color: red;*/
+	margin-bottom: 10px;
+}
+
+.tracker {
+	width: 200px;
+	height: 120px;
+	border: 1px red;
+	float: left;
+}
+
+body {
+	background-image: url(../images/cool-background.jpg);
+}
+
+
+
+
+
+p, h1 {
+	color: black;
+}
+
+.container {
+	width: 100%;
+  	max-width: 960px;
+  	margin: 0 auto;
+  	clear: both;
+}
+

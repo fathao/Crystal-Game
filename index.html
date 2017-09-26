@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector Game</title>
+	<meta charset="UTF-8">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<h1>MathQuiz!</h1>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-md-8">
+	<h1>Instructions</h1>
+	<p>Figure out on your own!!!</p>
+</div>
+</div>
+
+<!-- Question number -->
+<div class="row">
+	<div class="col-md-2">
+		<div class="question">
+			<h1 id="targetScore"></h1>
+		</div>
+	</div>
+
+<!-- wins or losses -->
+	<div class="col-md-4">
+		<div class="tracker">
+			<p id="message"></p>
+			<p id="winScore"></p>
+			<p id="loseScore"></p>
+			
+	</div>		
+		</div>
+</div>
+
+
+<!-- Picture button-->
+<div class="row">
+	<div class="col-md-12">
+		<div>
+			<button class="random-number"> 
+				<img src="assets/images/n.png" alt="N"/>
+			</button>
+			<button class="random-number">
+				<img src="assets/images/e.png" alt="E"/>
+			</button>
+			<button class="random-number">
+				<img src="assets/images/r.png" alt="R"/>
+			</button>
+			<button class="random-number">
+				<img src="assets/images/d.png" alt="D"/>
+			</button>
+		</div>
+	</div>	
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<p>Your total score is:</p>
+	</div>
+</div>
+<!-- Answer panel -->
+<div class="row">
+	<div class="col-md-8">
+		<div>
+			<h1 id="currentScore"></h1>
+		</div>
+	</div>	
+</div>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js" type="text/javascript"></script> 
+</body>
+</html>
