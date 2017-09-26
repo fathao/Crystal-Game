@@ -37,3 +37,18 @@ p, h1 {
   	clear: both;
 }
 
+.random-number {
+
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+
+}
+
+.head {
+	font-family: 'Libre Barcode 39 Text', cursive;
+
+}
+p {
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
